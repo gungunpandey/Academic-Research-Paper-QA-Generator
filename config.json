@@ -1,0 +1,15 @@
+{
+  "grobid_server": "http://localhost:8070",
+  "data_path": "research_papers",
+  "collection_name": "academic_papers_v1",
+  "google_sheet_name": "Research_Paper_Metadata",
+  "embedding_model_name": "all-MiniLM-L6-v2",
+  "vector_params": {
+    "size": 384,
+    "distance": "Cosine"
+  },
+  "text_splitter": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  }
+} 

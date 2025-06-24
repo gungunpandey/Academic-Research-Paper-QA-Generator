@@ -1,0 +1,20 @@
+PyMuPDF==1.23.9
+pytesseract==0.3.10
+Pillow==10.3.0
+spacy==3.7.2
+grobid-client-python==0.0.8
+requests==2.31.0
+lxml==4.9.3
+beautifulsoup4==4.12.2
+
+# New dependencies for ingestion pipeline
+qdrant-client==1.9.0
+sentence-transformers[clip]==2.2.2
+python-dotenv==1.0.0
+PyYAML==6.0
+tqdm==4.64.1
+
+# New dependencies for Google Sheets integration
+gspread==5.12.4
+google-auth-oauthlib==1.2.0
+pandas==2.2.2 

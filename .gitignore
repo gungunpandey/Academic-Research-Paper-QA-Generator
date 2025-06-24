@@ -192,3 +192,35 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project-specific ignores
+# Results folders from different processing runs
+results_1/
+results_2/
+results_3/
+research_papers/
+
+# Log files
+*.log
+logs/
+
+# Environment and credential files
+.env
+.env.local
+.env.production
+.env.development
+temp_env.txt
+credentials.json
+*.pem
+*.key
+
+# Google Sheets credentials
+credentials.json
+token.json
+client_secret*.json
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
